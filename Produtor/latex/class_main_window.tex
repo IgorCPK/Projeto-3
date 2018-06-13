@@ -1,0 +1,65 @@
+\hypertarget{class_main_window}{}\section{Main\+Window Class Reference}
+\label{class_main_window}\index{Main\+Window@{Main\+Window}}
+
+
+Esta classe gera a janela do produtor de arquivos.  
+
+
+
+
+{\ttfamily \#include $<$mainwindow.\+h$>$}
+
+Inheritance diagram for Main\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_main_window}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_main_window_a62000ffa1534df6799cb64acc977e285}\label{class_main_window_a62000ffa1534df6799cb64acc977e285}} 
+void \mbox{\hyperlink{class_main_window_a62000ffa1534df6799cb64acc977e285}{conectar}} ()
+\begin{DoxyCompactList}\small\item\em Este método conecta com o IP desejado. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a44cae809331c23b6fdce421d11add74d}\label{class_main_window_a44cae809331c23b6fdce421d11add74d}} 
+void \mbox{\hyperlink{class_main_window_a44cae809331c23b6fdce421d11add74d}{desconectar}} ()
+\begin{DoxyCompactList}\small\item\em Este método desconecta do IP. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_ade86323d89092da0a86d2673e2d1e980}\label{class_main_window_ade86323d89092da0a86d2673e2d1e980}} 
+void \mbox{\hyperlink{class_main_window_ade86323d89092da0a86d2673e2d1e980}{update\+IP}} (Q\+String \+\_\+\+IP)
+\begin{DoxyCompactList}\small\item\em Este método Atualiza o IP. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a8068f1acc3bbe6cafffb3a66e53eb3ff}\label{class_main_window_a8068f1acc3bbe6cafffb3a66e53eb3ff}} 
+void \mbox{\hyperlink{class_main_window_a8068f1acc3bbe6cafffb3a66e53eb3ff}{limiteinf}} (int \+\_\+min)
+\begin{DoxyCompactList}\small\item\em Este método altera o limite inferior de dados enviados. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_add2e9d129fdbd6db065058839e679c60}\label{class_main_window_add2e9d129fdbd6db065058839e679c60}} 
+void \mbox{\hyperlink{class_main_window_add2e9d129fdbd6db065058839e679c60}{limite\+Sup}} (int \+\_\+max)
+\begin{DoxyCompactList}\small\item\em Este método altera o limite superior de dados enviados. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a02c758341d26e773788210455fffd774}\label{class_main_window_a02c758341d26e773788210455fffd774}} 
+void \mbox{\hyperlink{class_main_window_a02c758341d26e773788210455fffd774}{on\+Timer}} ()
+\begin{DoxyCompactList}\small\item\em Este método liga o timer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a7e7c230ecf7df1554f8a1ac68976253f}\label{class_main_window_a7e7c230ecf7df1554f8a1ac68976253f}} 
+void \mbox{\hyperlink{class_main_window_a7e7c230ecf7df1554f8a1ac68976253f}{off\+Timer}} ()
+\begin{DoxyCompactList}\small\item\em Este método desliga o timer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_ab5db2dcd9b9592285a18fa7d19256e6a}\label{class_main_window_ab5db2dcd9b9592285a18fa7d19256e6a}} 
+void \mbox{\hyperlink{class_main_window_ab5db2dcd9b9592285a18fa7d19256e6a}{set\+Timer}} (int \+\_\+t)
+\begin{DoxyCompactList}\small\item\em Este método configura o timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}} 
+{\bfseries Main\+Window} (Q\+Widget $\ast$parent=0)
+\item 
+\mbox{\Hypertarget{class_main_window_aaa425b1554af3c1f58cc70b4815082ae}\label{class_main_window_aaa425b1554af3c1f58cc70b4815082ae}} 
+void {\bfseries timer\+Event} (Q\+Timer\+Event $\ast$event)
+\item 
+\mbox{\Hypertarget{class_main_window_a80d9c71f712c71b7f5e115afcfba95e6}\label{class_main_window_a80d9c71f712c71b7f5e115afcfba95e6}} 
+void \mbox{\hyperlink{class_main_window_a80d9c71f712c71b7f5e115afcfba95e6}{send\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Este método envia os dados. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Esta classe gera a janela do produtor de arquivos. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+mainwindow.\+h\item 
+mainwindow.\+cpp\end{DoxyCompactItemize}
