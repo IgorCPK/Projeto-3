@@ -22,25 +22,25 @@ public:
 
 
 public slots:
-    //!Resgata os dados enviado ao servidor.
+    //!Recebe os dados enviados ao servidor.
     void getData();
-    //!Manipula os eventos de temporização.
+    //!Manipula os eventos de tempo.
     void timerEvent(QTimerEvent *e);
-    //!Inicializa a comunicação com o servidor.
+    //!Inicia a comunicação com o servidor.
     void tcpConnect();
     //!Finaliza a comunicação com servidor.
     void tcpDisconnect();
-    //!Inicializa o processo de aquisição de dados.
+    //!Inicia o processo de aquisição de dados.
     void start();
     //!Finaliza o processo de aquisição de dados.
     void stop();
-    //!Atualiza a lista de ips que produziram dados.
+    //!Atualiza a lista de ips produtores de dados
     void update();
-    //!Conecta-se ao ip clicado no listwidget
+    //!Conecta-se ao ip selecionado
     void updateLineEditIP();
 
 private slots:
-    //!Trata ação de feixar o programa.
+    //!Fecha o Programa
     void on_actionQuit_triggered();
 
 private:
